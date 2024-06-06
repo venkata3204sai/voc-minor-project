@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="user-form">
+        <div class="form-title">
+            <h1>Registration</h1>
+        </div>
+        <div class="form-details">
+            <div class="detail">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" class="text-box" required>
+            </div>
+            <div class="detail">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" class="text-box" required>
+            </div>
+            <div class="detail">
+                <label for="email-address">Email</label>
+                <input type="email" id="email-address" class="text-box" required>
+            </div>
+            <div class="detail">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="text-box" required>
+            </div>
+            <div class="detail">
+                <label for="cnf-password">Confirm Password</label>
+                <input type="password" id="cnf-password" class="text-box" required>
+            </div>
+            <div class="detail">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" class="date-box" required>
+            </div>
+            <div class="detail">
+                <label for="gender">Gender</label>
+                <div>
+                    <label class="radio-group"><input type="radio" name="gender" class="radio-btn" required> Male</label>
+                    <label class="radio-group"><input type="radio" name="gender" class="radio-btn" required> female</label>
+                    <label class="radio-group"><input type="radio" name="gender" class="radio-btn" required> other</label>
+                </div>
+            </div>
+            <div class="terms-detail">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I Agree to the <a href="">Terms and Conditions</a></label>
+            </div>
+            <div class="detail">
+                <button class="register-btn" type="submit">Register</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

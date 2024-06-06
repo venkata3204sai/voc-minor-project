@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    padding: 4rem 1rem;
+}
+
+.user-form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-title h1{
+    cursor: default;
+    color: black;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.6);
+}
+
+.form-details{
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.detail, .term-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.term-detail{
+    flex-direction: row;
+}
+
+.text-box, .date-box{
+    border-width: 0 0 0.08rem 0;
+    padding: 0.4rem;
+    border-color: black;
+}
+
+.text-box:focus, .date-box:focus{
+    outline-style: none;
+    border-color: rgb(244, 24, 40);
+    border-width: 0 0 0.1rem 0;
+}
+
+.radio-group{
+    padding: 1rem;
+}
+
+.radio-btn{
+    accent-color: rgb(244, 24, 40);
+    transform: translateY(2px);
+}
+
+#terms{
+    accent-color: rgb(244, 24, 40);
+    transform: translateY(2px);
+}
+
+.register-btn{
+    background-color: rgb(244, 24, 40);
+    border: solid;
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.register-btn:hover{
+    background-color: white;
+    color: rgb(244, 24, 40);
+}
+
+.register-btn:active{
+    transform: scale(0.9);
+}
