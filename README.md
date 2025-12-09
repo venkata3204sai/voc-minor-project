@@ -56,3 +56,8 @@ The goal of the internship was to build real-world, responsive web interfaces us
 
 You can view the live hosted version here:  
 **GitHub Pages:** https://venkata3204sai.github.io/voc-minor-project/
+
+
+## License
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
