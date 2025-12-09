@@ -7,7 +7,11 @@
   <img src="https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-blue.svg" alt="HTML CSS JS">
   <img src="https://img.shields.io/badge/Status-Prototype-green.svg" alt="Status">
   <img src="https://img.shields.io/github/last-commit/venkata3204sai/voc-minor-project" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Internship-Vault%20of%20Codes-blueviolet" alt="Vault of Codes Internship">
 </p>
+
+**This project was developed as part of my Frontend Web Development Internship at Vault of Codes.**  
+**Live Demo:** https://venkata3204sai.github.io/voc-minor-project/
 
 A simple, responsive **User Registration** form implemented with plain HTML, CSS and JavaScript. This is a frontend-only prototype (no backend) demonstrating accessible form layout, validation, and UX patterns for signup screens.
 
@@ -43,3 +47,12 @@ voc-minor-project/
 
 ## Preview
 <img width="1893" height="980" alt="{FF2B0898-DA56-4300-859B-2F4563CDF3FA}" src="https://github.com/user-attachments/assets/82142d8a-0867-447e-a6f5-bd8fda94152f" />
+
+ 
+## Internship Acknowledgement
+
+This project was created as an official task for my **Frontend Web Development Internship at Vault of Codes**.  
+The goal of the internship was to build real-world, responsive web interfaces using HTML, CSS, and JavaScript while strengthening UI/UX design fundamentals.
+
+You can view the live hosted version here:  
+**GitHub Pages:** https://venkata3204sai.github.io/voc-minor-project/
